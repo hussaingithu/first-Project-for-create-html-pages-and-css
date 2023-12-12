@@ -1,0 +1,93 @@
+/* Basic CSS for the layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+
+    .right-icons {
+        text-align: right;
+      }
+      
+      .right-icons i {
+        margin-left: 10px;
+      }
+
+       /* Styling for the marquee */
+    #marquee {
+        background-color: #f3f3f3;
+        padding: 10px 0;
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+  }
+  
+  .centered-image {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  header {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 250px;
+  }
+  .footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-info {
+    flex: 1;
+  }
+  
+  .social-media {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-media a {
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  /* Specific styling for the home and services sections can be added here */
+  /* For example, positioning of the favorite picture, etc. */
+  
